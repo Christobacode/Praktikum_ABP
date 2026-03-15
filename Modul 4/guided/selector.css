@@ -1,0 +1,32 @@
+/*Selector dengan Elemen 
+HTML*/ 
+p { 
+    text-align: center; 
+    color: red; 
+} 
+ 
+/*Selector dengan Id Elemen 
+HTML*/ 
+#para1 { 
+    text-align: center; 
+    color: red; 
+} 
+ 
+/*Selector dengan Class Elemen 
+HTML*/ 
+p.center { 
+    text-align: center; 
+    color: red; 
+} 
+
+body{  
+background-color: HSL(20%, 40%, 70%);  
+color: orange;   
+}  
+#teks{  
+color: #2F3CDF;  
+}
+/*dengan opacity sebesar 0.5*/  
+input.text-field{  
+background-color: RGBA(32, 55, 122, 0.5);  
+} 

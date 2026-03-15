@@ -1,0 +1,41 @@
+p.example { 
+font-family: Arial; 
+font-size: 20px; 
+color: ligh; 
+font-style: italic; 
+font-weight: bold; 
+} 
+
+Ul.listsatu { 
+    background-color: tomato; 
+    margin: 10px 5px 10px 5px; 
+    list-style-type: lower-alpha; 
+    list-style-position: inside; 
+} 
+ol.listdua { 
+    background-color: lightblue; 
+    list-style-type: lower-roman; 
+    padding: 5px 5px 15px 15px; 
+    list-style-position: inside; 
+} 
+h1 {  
+text-align: center;  
+}  
+h2 {  
+text-align: left;  
+}  
+h3 {  
+text-align: right;  
+}  
+
+/*CSS Properties*/  
+.section1 { 
+background-color: lightgrey; 
+padding: 10px 5px 10px 5px; 
+} 
+.mark { 
+background-color: tomato; 
+font-style: italic; 
+font-weight: bold; 
+padding: 10px 10px 10px 10px; 
+} 
