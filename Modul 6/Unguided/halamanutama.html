@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Web Ramadan - Christoba</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <div class="hiasan-bg"></div>
+
+    <div class="main-wrapper">
+        <div class="konten">
+            <div class="emot-ramadan">🌙</div>
+            <h1>Marhaban Ya Ramadhan</h1>
+            <p>Sambut bulan suci dengan penuh suka cita. Klik tombol di bawah untuk mengambil jatah THR kamu hari ini!</p>
+            <button id="tombolCek">Ambil THR Sekarang</button>
+        </div>
+    </div>
+
+    <div id="modalThr" class="modal-overlay">
+        <div class="modal-box">
+            <span id="closeX" class="tombol-tutup">&times;</span>
+            <div class="isi-modal">
+                <div class="ikon-hadiah">🎁</div>
+                <h2>Selamat!</h2>
+                <p>Kamu berhasil mendapatkan THR sebesar:</p>
+                <div id="hasilNominal" class="nominal-box"></div>
+                <button id="btnSelesai" class="btn-ok">Alhamdulillah</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="fitur.js"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+:root {
+    --warna-utama: #1b4332;
+    --warna-aksen: #ffca3a;
+    --putih: #ffffff;
+    --gelap: #081c15;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--gelap);
+    color: var(--putih);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hiasan-bg {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background: radial-gradient(circle, rgba(45, 106, 79, 0.5), transparent);
+    filter: blur(60px);
+    z-index: -1;
+}
+
+.main-wrapper {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 50px 30px;
+    border-radius: 25px;
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.emot-ramadan {
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: var(--warna-aksen);
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 0.95rem;
+    color: #ccc;
+    line-height: 1.6;
+}
+
+#tombolCek {
+    margin-top: 30px;
+    background: var(--warna-aksen);
+    color: var(--gelap);
+    border: none;
+    padding: 15px 35px;
+    font-weight: 700;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 1rem;
+}
+
+#tombolCek:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 202, 58, 0.4);
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.85);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.modal-box {
+    background: var(--putih);
+    color: #333;
+    width: 90%;
+    max-width: 380px;
+    padding: 40px;
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+    animation: bounceIn 0.5s ease;
+}
+
+@keyframes bounceIn {
+    0% { transform: scale(0.5); opacity: 0; }
+    70% { transform: scale(1.05); }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+.tombol-tutup {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #aaa;
+}
+
+.ikon-hadiah {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.nominal-box {
+    background: #f0fdf4;
+    border: 2px dashed var(--warna-utama);
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--warna-utama);
+    border-radius: 15px;
+}
+
+.btn-ok {
+    background: var(--warna-utama);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    width: 100%;
+    font-weight: 600;
+    cursor: pointer;
+}
