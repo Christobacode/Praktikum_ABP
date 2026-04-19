@@ -187,10 +187,10 @@ File index.blade.php adalah halaman tampilan webnya. Di dalamnya cuma ada tombol
 
 ## Cara Kerja Aplikasi
 1. Jalankan Aplikasi dengan mengetik  di cmd php artisan serve
-<img src="/2311102133_Christoba joshua hutagalung_Laravelajax/storage/assets/outputserve.jpeg">
+<img src="storage/assets/outputserve.jpeg">
 
 2. buka`http://127.0.0.1:8000` pada browser, kemudian akan ditampilkan halaman awal yang berisi judul dan tombol
-<img src="/2311102133_Christoba joshua hutagalung_Laravelajax/storage/assets/outputhalaman.jpeg">
+<img src="storage/assets/outputhalaman.jpeg">
 
 3. Setelah proses loading data akan ditampilkan dengan bentuk tabel
-<img src="/2311102133_Christoba joshua hutagalung_Laravelajax/storage/assets/hasiltabelData.jpeg">
+<img src="storage/assets/hasiltabelData.jpeg">
