@@ -192,5 +192,5 @@ File index.blade.php adalah halaman tampilan webnya. Di dalamnya cuma ada tombol
 2. buka`http://127.0.0.1:8000` pada browser, kemudian akan ditampilkan halaman awal yang berisi judul dan tombol
 <img src="storage/assets/outputhalaman.jpeg">
 
-3. Setelah proses loading data akan ditampilkan dengan bentuk tabel
+3. Setelah itu tekan tampilkan data maka data akan ditampilkan dengan bentuk tabel
 <img src="storage/assets/hasiltabelData.jpeg">
