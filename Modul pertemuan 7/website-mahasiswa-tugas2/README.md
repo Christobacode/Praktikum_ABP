@@ -39,7 +39,7 @@ Git Branch adalah fitur yang memungkinkan kamu untuk "mencabangkan" alur kerja d
 
 ### - buatlah git branch dengan 2 akun berbeda dan hubungkan dengan project yang di buat di tugas 2 ( bisa dengan antar teman kelas)
 1. tambahkan rekan sebagai collaborators
-<img src="/pertemuan7/mahasiswa-app/storage/assets/asset1.jpeg">
+<img src="website-mahasiswa-tugas2/storage/assets/asset1.jpeg">
 
 2. buat branch baru branch-akun1, buat file yang ingin ditambahkan dan push dengan command “git push origin branch-akun1”
 <img src="website-mahasiswa-tugas2/storage/assets/asset2.jpeg">
