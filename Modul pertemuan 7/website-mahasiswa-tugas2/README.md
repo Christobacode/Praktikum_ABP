@@ -56,7 +56,7 @@ Git Branch adalah fitur yang memungkinkan kamu untuk "mencabangkan" alur kerja d
 <img src="storage/assets/asset3.jpeg">
 
 6. hasil di repo github
-<img src="storage/assets/asset4.png">
+<img src="storage/assets/asset4.jpeg">
 
 ### - kalian jelaskan apa saja fungsi nya dan apa keuntungan git branch
 a. Fungsi git-branch <br>
@@ -72,13 +72,13 @@ b. keuntungan memakai git-branch <br>
 
 ### - buat juga output dan input apa saja yang dapat kalian lakukan mengunakan git branch
 1. yang ditambahkan oleh branch-akun1 memakai command `git log  --oneline branch-akun1`
-<img src="storage/assets/asset3.png">
+<img src="storage/assets/asset3.jpeg">
 
 2. yang ditambahkan oleh brench-akun2 memakai command `git log  --oneline branch-akun2`
-<img src="storage/assets/daffa3.png">
+<img src="storage/assets/daffa3.jpeg">
 
 3. Pemantauan kedua branch menggunakan command `git log --oneline --graph --all`
-<img src="storage/assets/asset3.png">
+<img src="storage/assets/asset3.jpeg">
 
 ### 2.	buatlah website ( bisa mengunakan website yang di gunnakan dalam tubes ) , lalu tambahkan database yang terhubung dengan local house 
 ### Code
