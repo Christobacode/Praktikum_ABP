@@ -39,24 +39,24 @@ Git Branch adalah fitur yang memungkinkan kamu untuk "mencabangkan" alur kerja d
 
 ### - buatlah git branch dengan 2 akun berbeda dan hubungkan dengan project yang di buat di tugas 2 ( bisa dengan antar teman kelas)
 1. tambahkan rekan sebagai collaborators
-<img src="website-mahasiswa-tugas2/storage/assets/asset1.jpeg">
+<img src="storage/assets/asset1.jpeg">
 
 2. buat branch baru branch-akun1, buat file yang ingin ditambahkan dan push dengan command “git push origin branch-akun1”
-<img src="website-mahasiswa-tugas2/storage/assets/asset2.jpeg">
+<img src="storage/assets/asset2.jpeg">
 
 3. buat branch baru lagi dengan nama branch-akun2, buat file yang akan ditambahkan dan push dengan command “git push origin branch-akun2
-<img src="website-mahasiswa-tugas2/storage/assets/daffa1.jpeg">
+<img src="storage/assets/daffa1.jpeg">
 
-<img src="website-mahasiswa-tugas2/storage/assets/daffa2.jpeg">
+<img src="storage/assets/daffa2.jpeg">
 
 4. lihat bagian branch pada repo github apakah branch sudah aktif
-<img src="website-mahasiswa-tugas2/storage/assets/branchaktif.png">
+<img src="storage/assets/branchaktif.png">
 
 5. dari branch main bisa me merge branch lainnya agar bisa ketambah di repositori utama
-<img src="website-mahasiswa-tugas2/storage/assets/asset3.jpeg">
+<img src="storage/assets/asset3.jpeg">
 
 6. hasil di repo github
-<img src="website-mahasiswa-tugas2/storage/assets/asset4.png">
+<img src="storage/assets/asset4.png">
 
 ### - kalian jelaskan apa saja fungsi nya dan apa keuntungan git branch
 a. Fungsi git-branch <br>
@@ -72,13 +72,13 @@ b. keuntungan memakai git-branch <br>
 
 ### - buat juga output dan input apa saja yang dapat kalian lakukan mengunakan git branch
 1. yang ditambahkan oleh branch-akun1 memakai command `git log  --oneline branch-akun1`
-<img src="website-mahasiswa-tugas2/storage/assets/asset3.png">
+<img src="storage/assets/asset3.png">
 
 2. yang ditambahkan oleh brench-akun2 memakai command `git log  --oneline branch-akun2`
-<img src="website-mahasiswa-tugas2/storage/assets/daffa3.png">
+<img src="storage/assets/daffa3.png">
 
 3. Pemantauan kedua branch menggunakan command `git log --oneline --graph --all`
-<img src="website-mahasiswa-tugas2/storage/assets/asset3.png">
+<img src="storage/assets/asset3.png">
 
 ### 2.	buatlah website ( bisa mengunakan website yang di gunnakan dalam tubes ) , lalu tambahkan database yang terhubung dengan local house 
 ### Code
