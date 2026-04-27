@@ -234,7 +234,7 @@ Route::get('/', [ProdukController::class, 'index']);
 Route::post('/tambah-produk', [ProdukController::class, 'store']);
 ```
 ### penjelasan
-File ini mengatur rute atau alamat URL pada aplikasi. Rute utama (/) diatur agar langsung menjalankan fungsi index di ProdukController untuk menampilkan daftar produk. Selain itu, terdapat rute POST /tambah-produk yang berfungsi untuk memproses pengiriman data dari form input menuju fungsi store di controller.
+Kode ini merupakan halaman antarmuka produk yang menggabungkan form tambah data dan tabel daftar produk. Form ini menggunakan metode POST untuk mengirim data nama_produk, harga, dan deskripsi ke server.
 
 `tampilan_produk.blade.php`
 ```php
@@ -298,11 +298,11 @@ File ini mengatur rute atau alamat URL pada aplikasi. Rute utama (/) diatur agar
 </html>
 ```
 ### Penjelasan
-Halaman ini adalah antarmuka pengguna yang dibuat menggunakan Blade engine. Terdapat form input yang dilengkapi dengan tag @csrf untuk keamanan dari serangan Cross-Site Request Forgery. Di bagian bawah form, terdapat tabel HTML yang menggunakan perulangan @foreach untuk menampilkan data secara dinamis yang diambil langsung dari database PostgreSQL.
+Kode ini merupakan halaman antarmuka produk yang menggabungkan form tambah data dan tabel daftar produk. Form ini menggunakan metode POST untuk mengirim data nama_produk, harga, dan deskripsi ke server.
 
 ### Tampilan website dan database menggunakan postgreSQL
 1. Tampilan web yang telah dibuat
-<img src="/pertemuan7/mahasiswa-app/storage/assets/nomor2/1.png">
+<img src="storage/assets/ssweb.png">
 
 2. Tampilan database di postgreSQL
-<img src="/pertemuan7/mahasiswa-app/storage/assets/nomor2/2.png">
+<img src="storage/assets/ssdatabase.png">
