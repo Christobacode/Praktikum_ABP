@@ -54,8 +54,8 @@ Visual Studio Code adalah aplikasi code editor buatan Microsoft yang dapat dijal
 ### Instalasi Extension Visual Studio Code
 Sebelum menggunakan visual studio code, sangat diperlukan untuk menginstall extension yang nantinya sebagai pendukung ketika membuat aplikasi menggunakan Flutter
 Flutter 
-<img src="assets\dartextension.png">
-<img src="assets\dartextension.png">
+<img src="assets/dartextension.png">
+<img src="assets/dartextension.png">
 
 ## MODUL 2 - PENGENALAN FLUTTER
 
