@@ -130,9 +130,9 @@ Untuk belajar flutter, tidak perlu terlalu fasih untuk mempelajari bahasa dart. 
 Untuk penggunaan variable di dart, terdapat beberapa cara, yaitu dengan var, type annotation dan multiple variable.
 ```dart
 var variableName;
-var name = "Nizal";
+var name = "Christoba";
 String? nama;
-String namaLengkap = "M Nizal";
+String namaLengkap = "C.Joshua";
 int a, b, c;
 int x = 1, y = 2, z = 3;
 ```
