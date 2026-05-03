@@ -33,19 +33,19 @@ Git adalah salah satu sistem pengontrol versi (Version Control System) pada proy
 
 ### Instalasi JDK
 JDK (Java Development Kit) merupakan perangkat yang digunakan untuk melakukan proses kompilasi dari kode java ke bytcode yang dapat dimengerti dan dapat dijalankan oleh JRE (Java Runtime Environment).
-<img src="pertemuan8/assets/jdk.png">
+<img src="../assets/jdk.png">
 
 ### Instalasi Flutter SDK
 Flutter adalah salah satu framework yang dapat digunakan untuk membangun aplikasi mobile multiplatform.
-<img src="pertemuan8/assets/fluttercmd.png">
+<img src="../assets/fluttercmd.png">
 
 ### Instalasi Android Studio
 Android Studio merupakan IDE resmi dalam membangun aplikasi berbasis Android, proses instalasinya juga sederhana sehingga kita dapat dengan mudah membangun aplikasi menggunakan Android Studio.
-<img src="pertemuan8/assets/androidstudio.png">
+<img src="../assets/androidstudio.png">
 
 ### Instalasi SDK Android
 SDK (Standart Development Kit) merupakan kumpulan dari beberapa alat, komponen, juga platform untuk mengembangkan aplikasi berbasis android. SDK wajib ada pada Android Studio.
-<img src="pertemuan8/assets/sdk.png">
+<img src="../assets/sdk.png">
 
 ### Instalasi Visual Studio Code
 Visual Studio Code adalah aplikasi code editor buatan Microsoft yang dapat dijalankan di semua perangkat desktop secara gratis. Kelengkapan fitur dan ekstensi membuat code editor ini menjadi pilihan utama para pengembang. Visual Studio Code bahkan mendukung hampir semua sistem operasi seperti Windows, Mac OS, Linux, dan lain sebagainya.
@@ -54,8 +54,8 @@ Visual Studio Code adalah aplikasi code editor buatan Microsoft yang dapat dijal
 ### Instalasi Extension Visual Studio Code
 Sebelum menggunakan visual studio code, sangat diperlukan untuk menginstall extension yang nantinya sebagai pendukung ketika membuat aplikasi menggunakan Flutter
 Flutter 
-<img src="pertemuan8/assets/dartextension.png">
-<img src="pertemuan8/assets/dartextension.png">
+<img src="../assets/dartextension.png">
+<img src="../assets/dartextension.png">
 
 ## MODUL 2 - PENGENALAN FLUTTER
 
